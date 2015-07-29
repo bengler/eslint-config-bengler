@@ -4,7 +4,7 @@ Shared eslint rules for Bengler
 
 # Usage
 
-`npm i -D @bengler/eslint-config-bengler`
+`npm i -D bengler`
 
 ## `.eslintrc`
 
@@ -13,7 +13,7 @@ Shared eslint rules for Bengler
 ```json
 {
   "extends": [
-    "@bengler/eslint-config-bengler"
+    "bengler"
   ]
 }
 ```
@@ -23,8 +23,8 @@ Shared eslint rules for Bengler
 ```json
 {
   "extends": [
-    "@bengler/eslint-config-bengler",
-    "@bengler/eslint-config-bengler/react",
+    "bengler",
+    "bengler/react",
   ]
 }
 ```
@@ -34,7 +34,7 @@ Shared eslint rules for Bengler
 ```json
 {
   "extends": [
-    "@bengler/eslint-config-bengler/es5"
+    "bengler/es5"
   ]
 }
 ```
@@ -54,10 +54,10 @@ A legacy project that uses React:
 ```json
 {
   "extends": [
-      "@bengler/eslint-config-bengler",
-    "@bengler/eslint-config-bengler/legacy-overrides/base",
-    "@bengler/eslint-config-bengler/react",
-    "@bengler/eslint-config-bengler/legacy-overrides/react"
+    "bengler",
+    "bengler/legacy-overrides/base",
+    "bengler/react",
+    "bengler/legacy-overrides/react"
   ]
 }
 ```
