@@ -1,5 +1,5 @@
 {
-  "name": "@bengler/eslint-config-bengler",
+  "name": "eslint-config-bengler",
   "version": "0.0.3",
   "description": "Shared eslint configs for Bengler",
   "main": "base.js",
