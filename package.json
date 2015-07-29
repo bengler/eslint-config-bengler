@@ -1,0 +1,26 @@
+{
+  "name": "@bengler/eslint-config-bengler",
+  "version": "0.0.0",
+  "description": "Shared eslint configs for Bengler",
+  "main": "base.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengler/eslint-config-bengler.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Bengler AS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bengler/eslint-config-bengler/issues"
+  },
+  "homepage": "https://github.com/bengler/eslint-config-bengler#readme",
+  "dependencies": {
+    "babel-eslint": "^4.0.5",
+    "eslint": "^0.24.1",
+    "eslint-plugin-react": "^3.1.0"
+  }
+}
