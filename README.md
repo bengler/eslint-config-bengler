@@ -4,7 +4,7 @@ Shared eslint rules for Bengler
 
 # Usage
 
-`npm i -D bengler`
+`npm i -D eslint-config-bengler`
 
 ## `.eslintrc`
 
