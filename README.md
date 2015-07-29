@@ -13,7 +13,7 @@ Shared eslint rules for Bengler
 ```json
 {
   "extends": [
-    "@bengler/eslint-config-bengler/base"
+    "@bengler/eslint-config-bengler"
   ]
 }
 ```
@@ -23,7 +23,7 @@ Shared eslint rules for Bengler
 ```json
 {
   "extends": [
-    "@bengler/eslint-config-bengler/base",
+    "@bengler/eslint-config-bengler",
     "@bengler/eslint-config-bengler/react",
   ]
 }
@@ -54,7 +54,7 @@ A legacy project that uses React:
 ```json
 {
   "extends": [
-      "@bengler/eslint-config-bengler/base",
+      "@bengler/eslint-config-bengler",
     "@bengler/eslint-config-bengler/legacy-overrides/base",
     "@bengler/eslint-config-bengler/react",
     "@bengler/eslint-config-bengler/legacy-overrides/react"
