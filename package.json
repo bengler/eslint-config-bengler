@@ -1,6 +1,6 @@
 {
   "name": "@bengler/eslint-config-bengler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shared eslint configs for Bengler",
   "main": "base.js",
   "scripts": {},
