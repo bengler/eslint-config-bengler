@@ -46,7 +46,7 @@ module.exports = {
     /**
      * Possible errors
      */
-    "comma-dangle": 2,               // http://eslint.org/docs/rules/comma-dangle
+    "comma-dangle": 0,               // http://eslint.org/docs/rules/comma-dangle
     "no-cond-assign": [2, "always"], // http://eslint.org/docs/rules/no-cond-assign
     "no-console": 2,                 // http://eslint.org/docs/rules/no-console
     "no-debugger": 2,                // http://eslint.org/docs/rules/no-debugger
