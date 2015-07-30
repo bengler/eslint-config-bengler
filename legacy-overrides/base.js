@@ -1,7 +1,6 @@
 module.exports = {
   "rules": {
     "quotes": 1,
-    "comma-dangle": [1, "always-multiline"],
     "semi": [1, "always"],
     "brace-style": 1,
     "no-var": 1,
