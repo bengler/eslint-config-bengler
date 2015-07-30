@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-bengler",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Shared eslint configs for Bengler",
   "main": "base.js",
   "scripts": {},
@@ -18,8 +18,7 @@
     "url": "https://github.com/bengler/eslint-config-bengler/issues"
   },
   "homepage": "https://github.com/bengler/eslint-config-bengler#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "eslint-plugin-react": "^3.1.0",
     "babel-eslint": "^4.0.5",
