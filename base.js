@@ -158,7 +158,10 @@ module.exports = {
     }],
     "space-after-keywords": 2,       // http://eslint.org/docs/rules/space-after-keywords
     "space-before-blocks": 2,        // http://eslint.org/docs/rules/space-before-blocks
-    "space-before-function-paren": [2, "never"], // http://eslint.org/docs/rules/space-before-function-paren
+    "space-before-function-paren": [2, {  // http://eslint.org/docs/rules/space-before-function-paren
+      "anonymous": "always",              // Relevant discussion: https://github.com/airbnb/javascript/issues/55
+      "named": "never"
+    }],
     "space-infix-ops": 2,            // http://eslint.org/docs/rules/space-infix-ops
     "space-return-throw-case": 2,    // http://eslint.org/docs/rules/space-return-throw-case
     "spaced-line-comment": 2        // http://eslint.org/docs/rules/spaced-line-comment
