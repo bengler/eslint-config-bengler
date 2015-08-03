@@ -12,8 +12,9 @@ module.exports = {
     "objectLiteralDuplicateProperties": false,
     "objectLiteralShorthandMethods": true,
     "objectLiteralShorthandProperties": true,
-    "experimentalObjectRestSpread": true,
     "spread": true,
+    "restParams": true,
+    "experimentalObjectRestSpread": true,
     "superInFunctions": true,
     "templateStrings": true,
     "jsx": false
@@ -30,6 +31,20 @@ module.exports = {
      */
     "no-var": 2,                     // http://eslint.org/docs/rules/no-var
     "prefer-const": 2,               // http://eslint.org/docs/rules/prefer-const
+    "prefer-spread": 2,              // http://eslint.org/docs/rules/prefer-spread
+    "arrow-parens": 1,               // http://eslint.org/docs/rules/arrow-parens
+    "arrow-spacing": 0,              // http://eslint.org/docs/rules/arrow-spacing
+    "constructor-super": 2,          // http://eslint.org/docs/rules/constructor-super
+
+     // todo: revisit this settings if/when we start using generators
+    "generator-star-spacing": [2, {"before": false, "after": true}],     // http://eslint.org/docs/rules/constructor-super
+
+    "require-yield": 2,              // http://eslint.org/docs/rules/
+    "no-class-assign": 2,            // http://eslint.org/docs/rules/no-class-assign
+    "no-const-assign": 2,            // http://eslint.org/docs/rules/no-const-assign
+    "no-this-before-super": 2,       // http://eslint.org/docs/rules/no-this-before-super
+    "object-shorthand": 2,           // http://eslint.org/docs/rules/object-shorthand
+    "prefer-reflect": 1,             // http://eslint.org/docs/rules/prefer-reflect
 
     /**
      * Variables
