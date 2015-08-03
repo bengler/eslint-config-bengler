@@ -10,7 +10,6 @@ module.exports = {
   "ecmaFeatures": {
     "jsx": true
   },
-  "parser": "babel-eslint",
   "rules": {
     "react/display-name": 1,
     "react/jsx-boolean-value": 2,    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
