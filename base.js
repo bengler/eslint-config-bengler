@@ -33,7 +33,7 @@ module.exports = {
     "prefer-const": 2,               // http://eslint.org/docs/rules/prefer-const
     "prefer-spread": 2,              // http://eslint.org/docs/rules/prefer-spread
     "arrow-parens": 1,               // http://eslint.org/docs/rules/arrow-parens
-    "arrow-spacing": 0,              // http://eslint.org/docs/rules/arrow-spacing
+    "arrow-spacing": [2, {before: false, after: true}], // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,          // http://eslint.org/docs/rules/constructor-super
 
      // todo: revisit this settings if/when we start using generators
@@ -179,6 +179,81 @@ module.exports = {
     }],
     "space-infix-ops": 2,            // http://eslint.org/docs/rules/space-infix-ops
     "space-return-throw-case": 2,    // http://eslint.org/docs/rules/space-return-throw-case
-    "spaced-comment": 0              // http://eslint.org/docs/rules/spaced-comment
+    "spaced-comment": 0,             // http://eslint.org/docs/rules/spaced-comment
+
+    "no-control-regex": 2,
+    "no-dupe-args": 2,
+    "no-empty-character-class": 2,
+    "no-negated-in-lhs": 2,
+    "no-regex-spaces": 2,
+    "valid-jsdoc": 1,
+    "valid-typeof": 2,
+    // Consider setting this to 1 and setting 'semi' to [2, 'never']
+    "no-unexpected-multiline": 1,
+
+    "accessor-pairs": 1,
+    "complexity": [1, 4],
+    "dot-location": [2, "property"],
+    "no-div-regex": 1,
+    "no-empty-label": 2,
+    "no-implicit-coercion": 0,
+    "no-invalid-this": 0,
+    "no-iterator": 1,
+    "no-labels": 2,
+    "no-multi-spaces": 2,
+    "no-process-env": 1,
+    "no-unused-expressions": 2,
+    "no-useless-call": 2,
+    "no-void": 0,
+    "no-warning-comments": [1, { "terms": ["todo", "fixme", "xxx"], "location": "anywhere" }],
+    "init-declarations": 0,
+    "no-catch-shadow": 0,
+    "no-delete-var": 2,
+    "no-label-var": 2,
+    "no-undef-init": 2,
+    "no-undef": 2,
+    "no-undefined": 2,
+
+    /**
+     * Node
+     */
+    "callback-return": 2,
+    "handle-callback-err": 2,
+    "no-mixed-requires": 2,
+    "no-new-require": 2,
+    "no-path-concat": 2,
+    "no-process-exit": 1,
+    "no-restricted-modules": 0,
+    "no-sync": 1,
+
+    /**
+     * Stylistic Issues
+     */
+    "array-bracket-spacing": [2, 'never'],
+    "computed-property-spacing": 2,
+    "consistent-this": [2, 'self'],
+    "func-style": 0,
+    "id-length": [1, {"min": 2, "max": 25, "exceptions": ["i", 'j', 'x', 'y', 'z']}],
+    "lines-around-comment": 0,
+    "linebreak-style": 2,
+    "max-nested-callbacks": [2, 3],
+    "new-parens": 0,
+    "newline-after-var": 0,
+    "no-array-constructor": 2,
+    "no-continue": 0,
+    "no-inline-comments": 0,
+    "no-lonely-if": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "no-ternary": 0,
+    "no-unneeded-ternary": 2,
+    "object-curly-spacing": [2, "never"],
+    "operator-assignment": [2, "always"],
+    "operator-linebreak": [2, "before"],
+    "quote-props": [2, "as-needed"],
+    "id-match": 0,
+    "sort-vars": 0,
+    "space-in-parens": [2, "never"],
+    "space-unary-ops": 2,
+    "wrap-regex": 0
   }
 };

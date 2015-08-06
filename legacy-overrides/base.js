@@ -12,6 +12,14 @@ module.exports = {
     "no-else-return": 1,
     "space-before-function-paren": 1,
     "no-param-reassign": 1,
-    "no-multiple-empty-lines": 1
+    "no-multiple-empty-lines": 1,
+    "arrow-spacing": 1,
+    "quote-props": 1,
+    "no-undefined": 1,
+    "space-in-parens": 1,
+    "object-curly-spacing": 1,
+    "operator-linebreak": 1,
+    "max-nested-callbacks": 1,
+    "no-lonely-if": 1
   }
 };
