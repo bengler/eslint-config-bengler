@@ -6,7 +6,7 @@ module.exports = {
     "no-var": 1,
     "prefer-const": 1,
     "block-scoped-var": 1, // Looks like elint has a bug here. It won't allow referencing function declarations before its definition
-    "spaced-line-comment": 1,
+    "spaced-comment": 1,
     "no-nested-ternary": 1,
     "strict": 1,
     "no-else-return": 1,
