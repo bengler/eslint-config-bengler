@@ -33,7 +33,7 @@ module.exports = {
     "prefer-const": 2,               // http://eslint.org/docs/rules/prefer-const
     "prefer-spread": 2,              // http://eslint.org/docs/rules/prefer-spread
     "arrow-parens": [2, 'as-needed'],// http://eslint.org/docs/rules/arrow-parens
-    "arrow-spacing": [2, {before: false, after: true}], // http://eslint.org/docs/rules/arrow-spacing
+    "arrow-spacing": 2,              // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,          // http://eslint.org/docs/rules/constructor-super
 
      // todo: revisit this settings if/when we start using generators
