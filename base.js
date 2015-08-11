@@ -138,9 +138,7 @@ module.exports = {
     "quotes": [
       2, "single", "avoid-escape"    // http://eslint.org/docs/rules/quotes
     ],
-    "camelcase": [2, {               // http://eslint.org/docs/rules/camelcase
-      "properties": "never"
-    }],
+    "camelcase": 2,
     "comma-spacing": [2, {           // http://eslint.org/docs/rules/comma-spacing
       "before": false,
       "after": true
