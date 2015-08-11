@@ -32,31 +32,6 @@ module.exports = {
     "react/self-closing-comp": 2,    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     "react/wrap-multilines": 2,      // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
     "react/display-name": [2, {"acceptTranspilerName": true}], // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-    "react/sort-comp": [2, {         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-      "order": [
-        "displayName",
-        "propTypes",
-        "contextTypes",
-        "childContextTypes",
-        "mixins",
-        "statics",
-        "defaultProps",
-        "constructor",
-        "getDefaultProps",
-        "getInitialState",
-        "getChildContext",
-        "componentWillMount",
-        "componentDidMount",
-        "componentWillReceiveProps",
-        "shouldComponentUpdate",
-        "componentWillUpdate",
-        "componentDidUpdate",
-        "componentWillUnmount",
-        "/^handle.+$/",
-        "/^get.+$/",
-        "/^render.+$/",
-        "render"
-      ]
-    }]
+    "react/sort-comp": 2
   }
 };
