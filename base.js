@@ -32,7 +32,7 @@ module.exports = {
     "no-var": 2,                     // http://eslint.org/docs/rules/no-var
     "prefer-const": 2,               // http://eslint.org/docs/rules/prefer-const
     "prefer-spread": 2,              // http://eslint.org/docs/rules/prefer-spread
-    "arrow-parens": 1,               // http://eslint.org/docs/rules/arrow-parens
+    "arrow-parens": [2, 'as-needed'],// http://eslint.org/docs/rules/arrow-parens
     "arrow-spacing": [2, {before: false, after: true}], // http://eslint.org/docs/rules/arrow-spacing
     "constructor-super": 2,          // http://eslint.org/docs/rules/constructor-super
 
