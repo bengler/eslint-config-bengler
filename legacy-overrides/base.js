@@ -20,6 +20,7 @@ module.exports = {
     "object-curly-spacing": 1,
     "operator-linebreak": 1,
     "max-nested-callbacks": 1,
-    "no-lonely-if": 1
+    "no-lonely-if": 1,
+    "arrow-parens": 1
   }
 };
