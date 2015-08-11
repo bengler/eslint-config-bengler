@@ -1,7 +1,7 @@
 module.exports = {
   "rules": {
     "quotes": 1,
-    "semi": [1, "always"],
+    "semi": [1, "never"],
     "brace-style": 1,
     "no-var": 1,
     "prefer-const": 1,
