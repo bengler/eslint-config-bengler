@@ -43,7 +43,7 @@ module.exports = {
     "no-class-assign": 2,            // http://eslint.org/docs/rules/no-class-assign
     "no-const-assign": 2,            // http://eslint.org/docs/rules/no-const-assign
     "no-this-before-super": 2,       // http://eslint.org/docs/rules/no-this-before-super
-    "object-shorthand": 2,           // http://eslint.org/docs/rules/object-shorthand
+    "object-shorthand": [2, {methods: true}], // http://eslint.org/docs/rules/object-shorthand
     "prefer-reflect": 1,             // http://eslint.org/docs/rules/prefer-reflect
 
     /**
@@ -132,8 +132,8 @@ module.exports = {
      */
     "indent": [2, 2, {"SwitchCase": 1}], // http://eslint.org/docs/rules/indent
     "brace-style": [2,               // http://eslint.org/docs/rules/brace-style
-      "stroustrup", {
-        "allowSingleLine": true
+      "1tbs", {
+        "allowSingleLine": false
       }],
     "quotes": [
       2, "single", "avoid-escape"    // http://eslint.org/docs/rules/quotes
@@ -190,7 +190,7 @@ module.exports = {
     "no-unexpected-multiline": 1,
 
     "accessor-pairs": 1,
-    "complexity": [1, 4],
+    "complexity": [1, 9],
     "dot-location": [2, "property"],
     "no-div-regex": 1,
     "no-empty-label": 2,
