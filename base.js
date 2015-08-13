@@ -43,7 +43,7 @@ module.exports = {
     "no-class-assign": 2,            // http://eslint.org/docs/rules/no-class-assign
     "no-const-assign": 2,            // http://eslint.org/docs/rules/no-const-assign
     "no-this-before-super": 2,       // http://eslint.org/docs/rules/no-this-before-super
-    "object-shorthand": [2, {methods: true}], // http://eslint.org/docs/rules/object-shorthand
+    "object-shorthand": [2, 'methods'], // http://eslint.org/docs/rules/object-shorthand
     "prefer-reflect": 1,             // http://eslint.org/docs/rules/prefer-reflect
 
     /**
@@ -231,7 +231,7 @@ module.exports = {
     "computed-property-spacing": 2,
     "consistent-this": [2, 'self'],
     "func-style": 0,
-    "id-length": [1, {"min": 2, "max": 25, "exceptions": ["i", 'j', 'x', 'y', 'z']}],
+    "id-length": [1, {"min": 2, "exceptions": ["i", 'j', 'x', 'y', 'z']}],
     "lines-around-comment": 0,
     "linebreak-style": 2,
     "max-nested-callbacks": [2, 3],
