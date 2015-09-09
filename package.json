@@ -18,5 +18,8 @@
     "url": "https://github.com/bengler/eslint-config-bengler/issues"
   },
   "homepage": "https://github.com/bengler/eslint-config-bengler#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^1.3.1"
+  }
 }
