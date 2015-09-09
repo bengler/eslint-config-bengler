@@ -253,19 +253,5 @@ module.exports = {
     "space-in-parens": [2, "never"],
     "space-unary-ops": 2,
     "wrap-regex": 0
-  },
-  "mocha": {
-    // BDD
-    "describe": false,
-    "it": false,
-    "before": false,
-    "after": false,
-    "beforeEach": false,
-    "afterEach": false,
-    // TDD
-    "suite": false,
-    "test": false,
-    "setup": false,
-    "teardown": false
   }
 };
