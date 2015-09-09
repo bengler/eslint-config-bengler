@@ -1,16 +1,10 @@
 module.exports = {
   "rules": {
-    // BDD
-    "describe": false,
-    "it": false,
-    "before": false,
-    "after": false,
-    "beforeEach": false,
-    "afterEach": false,
-    // TDD
-    "suite": false,
-    "test": false,
-    "setup": false,
-    "teardown": false
+    "describe": 0,
+    "it": 0,
+    "before": 0,
+    "after": 0,
+    "beforeEach": 0,
+    "afterEach": 0
   }
 };
