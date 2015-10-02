@@ -269,7 +269,7 @@ module.exports = {
     "space-unary-ops": 2,
     "wrap-regex": 0,
     "max-depth": [2, 2],
-    "max-len": [1, 80, 4],
+    "max-len": [1, 120, 4],
     "max-params": [2, 3],
     "max-statements": [1, 50],
     "block-spacing": [2, 'always'],
