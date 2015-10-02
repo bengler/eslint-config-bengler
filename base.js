@@ -130,7 +130,7 @@ module.exports = {
     "vars-on-top": 0,                // http://eslint.org/docs/rules/vars-on-top
     "wrap-iife": [2, "any"],         // http://eslint.org/docs/rules/wrap-iife
     "yoda": 2,                       // http://eslint.org/docs/rules/yoda
-    "no-restricted-syntax": [2, "FunctionExpression", "WithStatement"],
+    "no-restricted-syntax": [2, "WithStatement"],
     "no-useless-concat": 2,
     "prefer-arrow-callback": 2,
     "require-jsdoc": 1,
@@ -192,7 +192,7 @@ module.exports = {
     "no-empty-character-class": 2,
     "no-negated-in-lhs": 2,
     "no-regex-spaces": 2,
-    "valid-jsdoc": 1,
+    "valid-jsdoc": 0,
     "valid-typeof": 2,
     // Consider setting this to 1 and setting 'semi' to [2, 'never']
     "no-unexpected-multiline": 1,
@@ -271,7 +271,7 @@ module.exports = {
     "max-depth": [2, 2],
     "max-len": [1, 80, 4],
     "max-params": [2, 3],
-    "max-statements": [2, 10],
+    "max-statements": [1, 50],
     "block-spacing": [2, 'always'],
     "global-require": 0,
     "prefer-template": 2,

@@ -12,7 +12,7 @@ module.exports = {
   },
   "rules": {
     "react/no-set-state": 0,            // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
-    "react/jsx-no-literals": 2,
+    "react/jsx-no-literals": 0,
     "react/jsx-indent-props": [2, 2],
     "react/jsx-closing-bracket-location": 1, // Consider undecided. We should gather some experience with this
     "react/no-direct-mutation-state": 2,
