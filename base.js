@@ -133,7 +133,7 @@ module.exports = {
     "no-restricted-syntax": [2, "WithStatement"],
     "no-useless-concat": 2,
     "prefer-arrow-callback": 2,
-    "require-jsdoc": 1,
+    "require-jsdoc": 0,
 
     /**
      * Style
