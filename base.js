@@ -78,11 +78,15 @@ module.exports = {
     "no-invalid-regexp": 2,          // http://eslint.org/docs/rules/no-invalid-regexp
     "no-irregular-whitespace": 2,    // http://eslint.org/docs/rules/no-irregular-whitespace
     "no-obj-calls": 2,               // http://eslint.org/docs/rules/no-obj-calls
-    "no-reserved-keys": 0,           // http://eslint.org/docs/rules/no-reserved-keys
     "no-sparse-arrays": 2,           // http://eslint.org/docs/rules/no-sparse-arrays
     "no-unreachable": 2,             // http://eslint.org/docs/rules/no-unreachable
     "use-isnan": 2,                  // http://eslint.org/docs/rules/use-isnan
     "block-scoped-var": 2,           // http://eslint.org/docs/rules/block-scoped-var
+    "no-plusplus": 0,                // http://eslint.org/docs/rules/no-plusplus
+    "no-bitwise": 2,                 // http://eslint.org/docs/rules/no-bitwise
+    "no-dupe-class-members": 2,      // http://eslint.org/docs/rules/no-dupe-class-members
+
+
 
     /**
      * Best practices
@@ -126,6 +130,10 @@ module.exports = {
     "vars-on-top": 0,                // http://eslint.org/docs/rules/vars-on-top
     "wrap-iife": [2, "any"],         // http://eslint.org/docs/rules/wrap-iife
     "yoda": 2,                       // http://eslint.org/docs/rules/yoda
+    "no-restricted-syntax": [2, "FunctionExpression", "WithStatement"],
+    "no-useless-concat": 2,
+    "prefer-arrow-callback": 2,
+    "require-jsdoc": 1,
 
     /**
      * Style
@@ -213,6 +221,13 @@ module.exports = {
     "no-undefined": 2,
 
     /**
+     * JSX
+     */
+
+    "jsx-quotes": [2, 'prefer-double'], // http://eslint.org/docs/rules/jsx-quotes
+
+
+    /**
      * Node
      */
     "callback-return": 2,
@@ -252,6 +267,14 @@ module.exports = {
     "sort-vars": 0,
     "space-in-parens": [2, "never"],
     "space-unary-ops": 2,
-    "wrap-regex": 0
+    "wrap-regex": 0,
+    "max-depth": [2, 2],
+    "max-len": [1, 80, 4],
+    "max-params": [2, 3],
+    "max-statements": [2, 10],
+    "block-spacing": [2, 'always'],
+    "global-require": 0,
+    "prefer-template": 2,
+    "space-before-keywords": [2, 'always']
   }
 };
