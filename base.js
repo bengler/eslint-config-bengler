@@ -270,7 +270,7 @@ module.exports = {
     "wrap-regex": 0,
     "max-depth": [2, 2],
     "max-len": [1, 120, 4],
-    "max-params": [2, 3],
+    "max-params": [2, 5],
     "max-statements": [1, 50],
     "block-spacing": [2, 'always'],
     "global-require": 0,
