@@ -269,11 +269,7 @@ module.exports = {
     "space-unary-ops": 2,
     "wrap-regex": 0,
     "max-depth": [2, 2],
-<<<<<<< 16e1ded93201adb4d8759214a78aea52d09b5c8a
-    "max-len": [1, 150, 4],
-=======
     "max-len": [2, 150, 4],
->>>>>>> Make max-len be reported as error, not warning
     "max-params": [2, 5],
     "max-statements": [1, 50],
     "block-spacing": [2, 'always'],
