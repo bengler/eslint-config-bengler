@@ -15,6 +15,8 @@ module.exports = {
     "no-multiple-empty-lines": 1,
     "arrow-spacing": 1,
     "quote-props": 1,
+    "prefer-template": 1,
+    "prefer-arrow-callback": 1,
     "no-undefined": 1,
     "space-in-parens": 1,
     "object-curly-spacing": 1,
