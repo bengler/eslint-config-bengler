@@ -22,7 +22,7 @@ module.exports = {
   "rules": {
     "accessor-pairs": 1,
     "array-bracket-spacing": [2, "never"],
-    "arrow-body-style": [2, "as-needed"],
+    "arrow-body-style": 0,
     "arrow-parens": [2, "as-needed"],
     "arrow-spacing": 2,
     "block-scoped-var": 2,
