@@ -4,6 +4,7 @@ module.exports = {
     "semi": [1, "never"],
     "brace-style": 1,
     "no-var": 1,
+    "jsx-quotes": [1, "prefer-double"],
     "prefer-const": 1,
     "block-scoped-var": 1, // Looks like elint has a bug here. It won't allow referencing function declarations before its definition
     "spaced-comment": 1,

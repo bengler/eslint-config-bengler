@@ -2,7 +2,6 @@ module.exports = {
   "rules": {
     "react/display-name": 1,
     "react/jsx-boolean-value": 1,
-    "react/jsx-quotes": [1, "double"],
     "react/jsx-no-undef": 1,
     "react/jsx-uses-react": 1,
     "react/jsx-uses-vars": 1,
