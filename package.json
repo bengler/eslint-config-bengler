@@ -23,8 +23,8 @@
   "homepage": "https://github.com/bengler/eslint-config-bengler#readme",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^1.9.0",
-    "eslint-plugin-react": "^3.9.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.11.3",
     "lodash.difference": "^3.2.2"
   }
 }
