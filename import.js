@@ -1,6 +1,6 @@
 module.exports = {
   "rules": {
-    "import/default": 0,
+    "import/default": 2,
     "import/export": 2,
     "import/imports-first": 2,
     "import/namespace": 2,
