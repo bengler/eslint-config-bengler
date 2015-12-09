@@ -1,4 +1,7 @@
 module.exports = {
+  "plugins": [
+    "import"
+  ],
   "rules": {
     "import/default": 2,
     "import/export": 2,
