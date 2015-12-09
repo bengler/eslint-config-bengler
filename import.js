@@ -12,5 +12,10 @@ module.exports = {
     "import/no-named-as-default": 2,
     "import/no-require": 2,
     "import/no-unresolved": 2
+  },
+  "settings": {
+    "import/resolve": {
+      "extensions": [".js", ".jsx", ".json"]
+    }
   }
 };
