@@ -184,7 +184,7 @@ module.exports = {
     "prefer-reflect": 1,
     "prefer-spread": 2,
     "prefer-template": 2,
-    "quote-props": [2, "as-needed"],
+    "quote-props": [2, "consistent-as-needed"],
     "quotes": [2, "single", "avoid-escape"],
     "radix": 2,
     "require-jsdoc": 0,
