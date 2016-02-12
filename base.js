@@ -181,7 +181,6 @@ module.exports = {
     "padded-blocks": 0,
     "prefer-arrow-callback": 2,
     "prefer-const": 2,
-    "prefer-reflect": 1,
     "prefer-spread": 2,
     "prefer-template": 2,
     "quote-props": [2, "consistent-as-needed"],
