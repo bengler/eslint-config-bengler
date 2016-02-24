@@ -132,7 +132,6 @@ module.exports = {
     "no-process-exit": 1,
     "no-proto": 2,
     "no-redeclare": 2,
-
     "no-restricted-imports": [2,
       "underscore",
       "jquery"
