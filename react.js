@@ -11,7 +11,7 @@ module.exports = {
     "jsx": true
   },
   "rules": {
-    "react/display-name": [2, {"ignoreTranspilerName": true}],
+    "react/display-name": [2, {"ignoreTranspilerName": false}],
     "react/forbid-prop-types": 1,
     "react/jsx-boolean-value": 2,
     "react/jsx-closing-bracket-location": 1,
