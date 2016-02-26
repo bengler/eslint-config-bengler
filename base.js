@@ -64,7 +64,7 @@ module.exports = {
     "no-case-declarations": 2,
     "no-catch-shadow": 0,
     "no-class-assign": 2,
-    "no-cond-assign": [2, "always"],
+    "no-cond-assign": [2, "except-parens"],
     "no-confusing-arrow": 2,
     "no-console": 2,
     "no-const-assign": 2,
