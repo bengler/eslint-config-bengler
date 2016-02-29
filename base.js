@@ -197,7 +197,7 @@ module.exports = {
     "semi": [2, "never"],
     "semi-spacing": [2, {"after": true, "before": false}],
     "sort-vars": 0,
-    "sort-imports": 1,
+    "sort-imports": 0,
     "space-before-blocks": 2,
     "space-before-function-paren": [2, {"anonymous": "always", "named": "never"}],
     "space-in-parens": [2, "never"],
