@@ -29,8 +29,6 @@ module.exports = {
     "react/jsx-no-literals": 0,
     "react/jsx-no-undef": 2,
     "react/jsx-pascal-case": 2,
-    "react/jsx-sort-prop-types": 0,
-    "react/jsx-sort-props": 0,
     "react/jsx-space-before-closing": [2, "always"],
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
@@ -48,12 +46,8 @@ module.exports = {
     "react/prop-types": 2,
     "react/react-in-jsx-scope": 2,
     "react/require-extension": 2,
-    "react/sort-comp": 2,
-    "react/sort-prop-types": [2, {
-      "callbacksLast": true,
-      "ignoreCase": true,
-      "requiredFirst": true,
-    }],
+    "react/sort-comp": 0,
+    "react/sort-prop-types": 0,
     "react/self-closing-comp": 2,
     "react/wrap-multilines": 2
   }
