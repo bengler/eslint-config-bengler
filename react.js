@@ -46,9 +46,11 @@ module.exports = {
     "react/prop-types": 2,
     "react/react-in-jsx-scope": 2,
     "react/require-extension": 2,
+    "react/require-render-return": 2,
+    "react/prefer-stateless-function": 1,
     "react/sort-comp": 0,
     "react/sort-prop-types": 0,
     "react/self-closing-comp": 2,
     "react/wrap-multilines": 2
   }
-};
+}

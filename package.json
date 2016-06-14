@@ -23,12 +23,12 @@
   "homepage": "https://github.com/bengler/eslint-config-bengler#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint": "^2.1"
+    "eslint": "^2.12.0"
   },
   "devDependencies": {
-    "eslint": "^2.2.0",
+    "eslint": "^2.12.0",
     "eslint-plugin-import": "^1.0.0",
-    "eslint-plugin-react": "^4.1.0",
+    "eslint-plugin-react": "^4.3.0",
     "lodash.difference": "^3.2.2"
   }
 }
