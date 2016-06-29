@@ -14,7 +14,7 @@ module.exports = {
     "import/no-commonjs": "error",
     "import/no-deprecated": "off",
     "import/no-duplicates": "error",
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": false}],
+    "import/no-extraneous-dependencies": "error",
     "import/no-mutable-exports": "error",
     "import/no-named-as-default": "error",
     "import/no-named-as-default-member": "error",
