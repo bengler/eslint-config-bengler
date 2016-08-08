@@ -34,7 +34,7 @@ module.exports = {
     "react/jsx-uses-vars": "error",
     "react/no-danger": "warn",
     "react/no-deprecated": "error",
-    "react/no-did-mount-set-state": ["warn", "allow-in-func"],
+    "react/no-did-mount-set-state": "warn",
     "react/no-did-update-set-state": "error",
     "react/no-direct-mutation-state": "error",
     "react/no-is-mounted": "error",
