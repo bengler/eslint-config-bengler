@@ -39,6 +39,8 @@ module.exports = {
     "react/jsx-space-before-closing": ["error", "always"],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "react/no-children-prop": "error",
+    "react/no-comment-textnodes": "error",
     "react/no-danger": "warn",
     "react/no-danger-with-children": "error",
     "react/no-deprecated": "error",
@@ -51,7 +53,9 @@ module.exports = {
     "react/no-render-return-value": "error",
     "react/no-set-state": "off",
     "react/no-string-refs": "warn",
+    "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
+    "react/no-unused-prop-types": "error",
     "react/prefer-es6-class": "off",
     "react/prop-types": "error",
     "react/react-in-jsx-scope": "error",
@@ -60,6 +64,13 @@ module.exports = {
     "react/prefer-stateless-function": "warn",
     "react/sort-comp": "off",
     "react/sort-prop-types": "off",
-    "react/self-closing-comp": "error"
+    "react/self-closing-comp": "error",
+    "react/style-prop-object": "error",
+    "react/wrap-multilines": ["error", {
+      "closingSlash": "never",
+      "beforeSelfClosing": "always",
+      "afterOpening": "never"
+    }]
+
   }
 }
