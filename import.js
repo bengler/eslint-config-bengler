@@ -19,7 +19,7 @@ module.exports = {
     "import/no-duplicates": "error",
     "import/no-dynamic-require": "error",
     "import/no-extraneous-dependencies": "error",
-    "import/no-internal-modules": "error",
+    "import/no-internal-modules": "off",
     "import/no-mutable-exports": "error",
     "import/no-named-as-default": "error",
     "import/no-named-as-default-member": "error",
