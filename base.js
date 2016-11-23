@@ -70,7 +70,7 @@ module.exports = {
     "no-catch-shadow": "off",
     "no-class-assign": "error",
     "no-cond-assign": ["error", "except-parens"],
-    "no-confusing-arrow": "error",
+    "no-confusing-arrow": ["error", {"allowParens": true}],
     "no-console": "error",
     "no-const-assign": "error",
     "no-constant-condition": "error",
