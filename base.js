@@ -216,7 +216,7 @@ module.exports = {
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "prefer-template": "error",
-    "quote-props": ["error", "consistent-as-needed"],
+    "quote-props": ["error", "as-needed"],
     "quotes": ["error", "single", "avoid-escape"],
     "radix": "error",
     "require-jsdoc": "off",
