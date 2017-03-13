@@ -46,7 +46,7 @@ module.exports = {
       "afterOpening": "never"
     }],
     "react/jsx-wrap-multilines": "error",
-    "react/no-array-index-key": "error",
+    "react/no-array-index-key": "warn",
     "react/no-children-prop": "error",
     // "react/no-comment-textnodes": "error",  //@@@ deprecated in favor of react/jsx-no-comment-textnodes
     "react/no-danger": "warn",
