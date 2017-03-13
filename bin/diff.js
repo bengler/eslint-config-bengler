@@ -1,5 +1,5 @@
 var difference = require('lodash.difference')
-var latest = Object.keys(require('eslint/conf/eslint.json').rules)
+var latest = Object.keys(require('eslint/conf/eslint-all').rules)
 var base = Object.keys(require('..').rules)
 var latestReactRules = Object.keys(require('eslint-plugin-react').rules)
   .map(function(ruleName) {return 'react/' + ruleName})
