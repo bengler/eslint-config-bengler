@@ -186,7 +186,7 @@ module.exports = {
     "no-unsafe-negation": "error",
     "no-unused-expressions": "error",
     "no-unused-labels": "error",
-    "no-unused-vars": ["error", {"args": "none", "vars": "all"}],
+    "no-unused-vars": ["error", {"args": "none", "vars": "all", "ignoreRestSiblings": true}],
     "no-use-before-define": ["error", "nofunc"],
     "no-useless-call": "error",
     "no-useless-computed-key": "error",
