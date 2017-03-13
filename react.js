@@ -75,7 +75,10 @@ module.exports = {
     "react/sort-prop-types": "off",
     "react/self-closing-comp": "error",
     "react/style-prop-object": "error",
-    "react/void-dom-elements-no-children": "error"
+
+    // todo: enable the following rule when https://github.com/yannickcr/eslint-plugin-react/pull/1080 is released
+    //"react/void-dom-elements-no-children": "error"
+
      // "react/wrap-multilines": "error" //@@@ deprecated in favor of react/jsx-wrap-multilines
   }
 }
