@@ -14,9 +14,10 @@ module.exports = {
   },
   "rules": {
     "react/display-name": ["error", {"ignoreTranspilerName": false}],
+    "react/forbid-elements": "off",
+    "react/forbid-foreign-prop-types": "error",
     "react/forbid-prop-types": "warn",
     "react/forbid-component-props": "off",
-    "react/jsx-wrap-multilines": "error",
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-sort-props": "off",
     "react/jsx-first-prop-new-line": ["error", "multiline"],
@@ -44,6 +45,8 @@ module.exports = {
       "beforeSelfClosing": "always",
       "afterOpening": "never"
     }],
+    "react/jsx-wrap-multilines": "error",
+    "react/no-array-index-key": "warn",
     "react/no-children-prop": "error",
     // "react/no-comment-textnodes": "error",  //@@@ deprecated in favor of react/jsx-no-comment-textnodes
     "react/no-danger": "warn",
@@ -66,11 +69,13 @@ module.exports = {
     "react/react-in-jsx-scope": "error",
     "react/require-optimization": "warn",
     "react/require-render-return": "error",
+    "react/require-default-props": "warn",
     "react/prefer-stateless-function": "warn",
     "react/sort-comp": "off",
     "react/sort-prop-types": "off",
     "react/self-closing-comp": "error",
-    "react/style-prop-object": "error"
+    "react/style-prop-object": "error",
+    "react/void-dom-elements-no-children": "error"
      // "react/wrap-multilines": "error" //@@@ deprecated in favor of react/jsx-wrap-multilines
   }
 }
