@@ -222,7 +222,7 @@ module.exports = {
     "quote-props": ["error", "as-needed"],
     "quotes": ["error", "single", "avoid-escape"],
     "radix": "error",
-    "require-await": "warning",
+    "require-await": "warn",
     "require-jsdoc": "off",
     "require-yield": "error",
     "rest-spread-spacing": ["error", "never"],
