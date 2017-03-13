@@ -70,7 +70,7 @@ module.exports = {
     "react/require-optimization": "warn",
     "react/require-render-return": "error",
     "react/require-default-props": "warn",
-    "react/prefer-stateless-function": "warn",
+    "react/prefer-stateless-function": ["warn", {ignorePureComponents: true}],
     "react/sort-comp": "off",
     "react/sort-prop-types": "off",
     "react/self-closing-comp": "error",
