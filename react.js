@@ -67,6 +67,7 @@ module.exports = {
     "react/prefer-es6-class": "off",
     "react/prop-types": "error",
     "react/react-in-jsx-scope": "error",
+    // "react/require-extension": "...", //@@@ deprecated in favor of the eslint-plugin-import extensions rule
     "react/require-optimization": "warn",
     "react/require-render-return": "error",
     "react/require-default-props": "warn",
@@ -75,9 +76,7 @@ module.exports = {
     "react/sort-prop-types": "off",
     "react/self-closing-comp": "error",
     "react/style-prop-object": "error",
-
-    // todo: enable the following rule when https://github.com/yannickcr/eslint-plugin-react/pull/1080 is released
-    //"react/void-dom-elements-no-children": "error"
+    "react/void-dom-elements-no-children": "error"
 
      // "react/wrap-multilines": "error" //@@@ deprecated in favor of react/jsx-wrap-multilines
   }
