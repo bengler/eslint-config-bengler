@@ -26,9 +26,9 @@
     "eslint": "^3.x"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
+    "eslint": "^3.18.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-react": "^6.10.2",
     "lodash.difference": "^4.5.0"
   }
 }
