@@ -90,7 +90,7 @@ module.exports = {
     "no-dupe-class-members": "error",
     "no-dupe-keys": "error",
     "no-duplicate-case": "error",
-    "no-duplicate-imports": "error",
+    "no-duplicate-imports": "off", // turned off in favor of import/no-duplicates
     "no-else-return": "error",
     "no-empty": "error",
     "no-empty-character-class": "error",
