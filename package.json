@@ -23,7 +23,7 @@
   "homepage": "https://github.com/bengler/eslint-config-bengler#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint": "^3.x"
+    "eslint": "^3.x || ^4.x"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
