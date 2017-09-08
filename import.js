@@ -7,6 +7,8 @@ module.exports = {
     "import/export": "error",
     "import/extensions": ["error", {"js": "never", "json": "always"}],
     "import/first": "error",
+    "import/exports-last": "off",
+    "import/no-anonymous-default-export": "off",
     "import/imports-first": "error",
     "import/max-dependencies": "off",
     "import/namespace": "error",
