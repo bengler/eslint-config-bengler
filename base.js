@@ -43,7 +43,7 @@ module.exports = {
     "func-name-matching": "error",
     "function-paren-newline": ["error", "consistent"],
     "generator-star-spacing": ["error", {"after": true, "before": false}],
-    "getter-return": {"allowImplicit": true},
+    "getter-return": ["error", {"allowImplicit": true}],
     "global-require": "off",
     "guard-for-in": "error",
     "handle-callback-err": "error",
