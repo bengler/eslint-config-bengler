@@ -12,7 +12,7 @@ module.exports = {
     "array-bracket-newline": ["error", { "multiline": true }],
     "arrow-body-style": "off",
     "array-callback-return": "error",
-    "array-element-newline": ["error", { "multiline": true }],
+    "array-element-newline": "off",
     "arrow-parens": ["error", "as-needed"],
     "arrow-spacing": "error",
     "block-scoped-var": "error",
