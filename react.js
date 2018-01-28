@@ -14,20 +14,25 @@ module.exports = {
   },
   "rules": {
     "react/boolean-prop-naming": "off", // todo: enable this with whitelist of native html boolean attributes and is/has/can/will/*-prefixes"
+    "react/button-has-type": "error",
     "react/display-name": ["error", {"ignoreTranspilerName": false}],
     "react/default-props-match-prop-types": "error",
+    "react/destructuring-assignment": "off",
     "react/forbid-elements": "off",
     "react/forbid-foreign-prop-types": "error",
-    "react/forbid-prop-types": "warn",
     "react/forbid-component-props": "off",
+    "react/forbid-dom-props": "off",
+    "react/forbid-prop-types": "warn",
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-sort-props": "off",
     "react/jsx-first-prop-new-line": ["error", "multiline"],
     "react/jsx-no-target-blank": "error",
     "react/jsx-filename-extension": ["error", {"extensions": [".js"]}],
     "react/jsx-boolean-value": "error",
+    "react/jsx-child-element-spacing": "off", // missing docs atm
     "react/jsx-closing-bracket-location": 1,
     "react/jsx-closing-tag-location": "error",
+    "react/jsx-curly-brace-presence": "off",
     "react/jsx-curly-spacing": ["error", "never"],
     "react/jsx-equals-spacing": ["error", "never"],
     "react/jsx-handler-names": "error",
@@ -39,8 +44,10 @@ module.exports = {
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-literals": "off",
     "react/jsx-no-undef": "error",
+    "react/jsx-one-expression-per-line": "off",
     "react/jsx-pascal-case": "error",
-    "react/jsx-space-before-closing": ["error", "always"],
+    "react/jsx-sort-default-props": "off",
+    // "react/jsx-space-before-closing": ["error", "always"], //@@@ removed in favor of react/jsx-tag-spacing
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/jsx-tag-spacing": ["error", {
@@ -49,6 +56,7 @@ module.exports = {
       "afterOpening": "never"
     }],
     "react/jsx-wrap-multilines": "error",
+    "react/no-access-state-in-setstate": "error",
     "react/no-array-index-key": "warn",
     "react/no-children-prop": "error",
     // "react/no-comment-textnodes": "error",  //@@@ deprecated in favor of react/jsx-no-comment-textnodes
@@ -65,6 +73,7 @@ module.exports = {
     "react/no-render-return-value": "error",
     "react/no-set-state": "off",
     "react/no-string-refs": "warn",
+    "react/no-this-in-sfc": "error",
     "react/no-typos": "error",
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
