@@ -59,7 +59,7 @@ module.exports = {
     "linebreak-style": "error",
     "line-comment-position": "off",
     "lines-around-comment": "off",
-    "lines-between-class-members": ["error", "always"],
+    "lines-between-class-members": "off", // turn on if supports methods only
     "max-depth": ["error", 2],
     "max-len": ["error", 150, 4],
     "max-lines": "off",
